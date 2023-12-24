@@ -37,6 +37,30 @@ This means that you should configure your web server to "point" to your project'
 not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
 framework are exposed.
 
+## Created Simple Login Singup
+
+
+
+```
+I Added simple login singup screen using php ci4 and mysql Database..
+we learn through implementation of login signup-
+- MVC Architecture
+- Session
+- how helpers method works
+- Bootsrap
+- queryBuilder
+```
+## Tech Stack Used
+- PHP 7.4
+- codeigniter 4
+- Bootstrap 5.3
+
+## Some Images we had  created
+ ![Alt text](<Screenshot 2023-12-24 233156.png>) 
+ ![Alt text](<Screenshot 2023-12-24 233222.png>) 
+ ![Alt text](<Screenshot 2023-12-24 233253.png>)
+![Alt text](<Screenshot 2023-12-24 233334.png>)
+
 **Please** read the user guide for a better explanation of how CI4 works!
 
 ## Repository Management
@@ -65,3 +89,4 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - json (enabled by default - don't turn it off)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+
